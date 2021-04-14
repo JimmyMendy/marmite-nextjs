@@ -11,6 +11,7 @@ export default function RecipeCard({ recipe }) {
           src={'https:' + thumbnail.fields.file.url}
           width={thumbnail.fields.file.details.image.width}
           height={thumbnail.fields.file.details.image.height}
+          sizes="(max-height: 640px) 100px"
         />
       </div>
       <div className="content">
